@@ -14,8 +14,8 @@ En este caso, el archivo CSV de origen no se ha subido a Github, a solicitud de 
 ## Recursos utilizados
 
 * Dataset: Archivo CSV con el histórico de ataques de tiburón en el mundo. Se trata de un archivo de 25723 filas y 24 columnas de información:
-![Columnas1-10](https://github.com/silviaherf/data-cleaning-pandas/blob/master/input/Columnas1.png)
-![Columnas1-10](https://github.com/silviaherf/data-cleaning-pandas/blob/master/input/Columnas2.png)
+![Columnas1-10](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/Columnas1.png)
+![Columnas1-10](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/Columnas2.png)
 
 
 * Jupyer Notebook: aplicación escogida para desarrollar el código que nos permitirá llevar a cabo el proyecto
