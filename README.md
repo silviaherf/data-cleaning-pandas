@@ -4,7 +4,7 @@
 
 ## Resumen del proyecto
 
-Este proyecto consiste en la limpieza y manipulación de los datos contenidos en un archivo CSV, relativo a los ataques de tiburones en el mundo a lo largo de la historia. Asumidas dos hipótesis propias, se trata de validar la veracidad de las mismas a través de los datos.
+Este proyecto consiste en la limpieza y manipulación de los datos contenidos en un archivo CSV con Python, relativo a los ataques de tiburones en el mundo a lo largo de la historia. Asumidas dos hipótesis propias, se trata de validar la veracidad de las mismas a través de los datos.
 
 En este caso, el archivo CSV de origen no se ha subido a Github, a solicitud de su autor.
 
@@ -18,5 +18,16 @@ En este caso, el archivo CSV de origen no se ha subido a Github, a solicitud de 
 ![Columnas1-10](https://github.com/silviaherf/data-cleaning-pandas/blob/master/input/Columnas2.png)
 
 
-* Jupyer Notebook: 
+* Jupyer Notebook: aplicación escogida para desarrollar el código que nos permitirá llevar a cabo el proyecto
+* 
+
+## Estructura del repositorio
+
+* README.txt: El repositorio cuenta con este archivo resumen del trabajo realizado
+* Sharks_analysis.ipynb: Archivo Jupyer Notebook que contiene el script del proyecto
+
+* Input: Contiene la información de partida. En este caso, se incluye el archivo CSV que no se ha publicado en Github
+* src: Contiene archivos necesarios para el código. En este caso, incluye un archivo functions.py borrador, que finalmente no se ha utilizado durante el scripting
+* Output: Contiene la información de salida del código. Para el proyecto que nos ocupa, se trata fundamentalmente de tablas y gráficos de pandas
+* zz_trash: Contiene versiones obsoletas de archivos del proyecto. En este caso, está vacía
 
