@@ -27,6 +27,7 @@ En este caso, el archivo CSV de origen no se ha subido a Github, a solicitud de 
 * Sharks_analysis.ipynb: Archivo Jupyer Notebook que contiene el script del proyecto
 
 * Input: Contiene la información de partida. En este caso, se incluye el archivo CSV que no se ha publicado en Github
+* Images_readme: Contiene imágenes del código que se han utilizado en el README
 * src: Contiene archivos necesarios para el código. En este caso, incluye un archivo functions.py borrador, que finalmente no se ha utilizado durante el scripting
 * Output: Contiene la información de salida del código. Para el proyecto que nos ocupa, se trata fundamentalmente de tablas y gráficos de pandas
 * zz_trash: Contiene versiones obsoletas de archivos del proyecto. En este caso, está vacía
