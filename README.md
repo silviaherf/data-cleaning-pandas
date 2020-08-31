@@ -14,8 +14,8 @@ En este caso, el archivo CSV de origen no se ha subido a Github, a solicitud de 
 ## Recursos utilizados
 
 * Dataset: Archivo CSV con el histórico de ataques de tiburón en el mundo. Se trata de un archivo de 25723 filas y 24 columnas de información:
-![Columnas1-10](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/Columnas1.png)
-![Columnas1-10](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/Columnas2.png)
+![Columnas1-10](Images_readme/Columnas1.png)
+![Columnas1-10](Images_readme/Columnas2.png)
 
 
 * Jupyer Notebook: aplicación escogida para desarrollar el código que nos permitirá llevar a cabo el proyecto
@@ -59,7 +59,7 @@ El siguiente paso ha sido eliminar valores de filas duplicadas con el método de
 Y, viendo que 'Case' tiene 3000 datos no nulos más que el resto de filas, se ejecuta el mismo método para todas las columnas a excepción de 'Case'.
 El resultado es un dataset de 6222 filas y 10 columnas.
 
-![df_clean6000](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/6000filas.png)
+![df_clean6000](Images_readme/6000filas.png)
 
 
 ## 2. Validando la hipótesis 1: El mayor número de ataques en la historia se ha dado en hombres, aunque en más ocasiones las mujeres fallecen. En los años más recientes, la mortalidad en los ataques ha descendido.
@@ -76,10 +76,18 @@ Por último, para validar esta hipótesis en su segunda teoría, antes es necesa
 
 Mediante el método groupby() de pandas, y con los intervalos temporales que nos ha interesado, hemos podido cruzar los datos necesarios para la comprobación de la hipótesis, de la siguiente manera:
 
+* Ataques de tiburón por rango temporal y género:
+
 ![tabla_actividades](output/1-tabla_gen_fatal_años.png)
 ![tabla_actividades](output/2-barras_genero_años.png)
+
+* Mortalidad en los ataques de tiburón y su evolución temporal:
+
 ![tabla_actividades](output/3-tabla_porcentaje_años.png)
 ![tabla_actividades](output/4-porcentaje_fatal_años.png)
+
+* Mortalidad en los ataques de tiburón por género en la historia:
+
 ![tabla_actividades](output/5-barras_genero_fatal.png)
 ![tabla_actividades](output/6-tabla_gen_fatal_porcentaje.png)
 
