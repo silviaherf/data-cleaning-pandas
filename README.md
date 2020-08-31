@@ -38,7 +38,7 @@ En este caso, el archivo CSV de origen no se ha subido a Github, a solicitud de 
 
 
 ## Desarrollo del proyecto
-## 1. Revisión de los datos disponibles y su limpieza. 
+### 1. Revisión de los datos disponibles y su limpieza. 
 Apertura del archivo CSV con pandas. El dataframe de partida tiene 25723 filas y 24 columnas de información que, en un gran número de casos, contiene datos erróneos o vacíos.
 
 Sobre las columnas, en primer lugar se han renombrado evitando espacios en blanco y nombres excesivamente largos, como los de partida, para que sea más fácil su manejo en Python.
@@ -63,7 +63,7 @@ El resultado es un dataset de 6222 filas y 10 columnas.
 ![df_clean6000](Images_readme/6000filas.png)
 
 
-## 2. Validando la hipótesis 1: El mayor número de ataques en la historia se ha dado en hombres, aunque en más ocasiones las mujeres fallecen. En los años más recientes, la mortalidad en los ataques ha descendido.
+### 2. Validando la hipótesis 1: El mayor número de ataques en la historia se ha dado en hombres, aunque en más ocasiones las mujeres fallecen. En los años más recientes, la mortalidad en los ataques ha descendido.
 Puesto que es algo que vamos a necesitar más adelante, vamos a arreglar los valores de la columna "Sex", que únicamente cuenta con errores de inserción en 6 filas. Puesto que son tan pocos valores, hemos revisado estas filas una a una.
 
 En los casos en que el género se puede intuir de la columna 'Name', se ha sustituido el valor de 'Sex' por su valor correcto. Es una simple asignación.
@@ -95,7 +95,7 @@ Mediante el método groupby() de pandas, y con los intervalos temporales que nos
 
 Por lo que **la hipótesis 1 es errónea en sus dos teorías**
 
-## 3. Validando la hipótesis 2: La mayor parte de los ataques fueron producidos a surfistas
+### 3. Validando la hipótesis 2: La mayor parte de los ataques fueron producidos a surfistas
 En analogía al apartado anterior, en este caso será necesario depurar la columna 'Activity' para poder contabilizar los casos ocurridos en cada actividad.
 En este caso, los problemas que nos encontramos en esta columna son de errores de inserción (palabras escritas de forma incorrecta, frases que contienen la palabra clave,etc.), por lo que con regex podemos renombrar según nuestro interés esos datos.
 
