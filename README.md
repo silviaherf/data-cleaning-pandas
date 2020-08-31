@@ -77,17 +77,17 @@ Por último, para validar esta hipótesis en su segunda teoría, antes es necesa
 
 Mediante el método groupby() de pandas, y con los intervalos temporales que nos ha interesado, hemos podido cruzar los datos necesarios para la comprobación de la hipótesis, de la siguiente manera:
 
-* Ataques de tiburón por rango temporal y género:
+* **Ataques de tiburón por rango temporal y género**:
 
 ![tabla_actividades](output/1-tabla_gen_fatal_años.png)
 ![tabla_actividades](output/2-barras_genero_años.png)
 
-* Mortalidad en los ataques de tiburón y su evolución temporal:
+* **Mortalidad en los ataques de tiburón y su evolución temporal**:
 
 ![tabla_actividades](output/3-tabla_porcentaje_años.png)
 ![tabla_actividades](output/4-porcentaje_fatal_años.png)
 
-* Mortalidad en los ataques de tiburón por género en la historia:
+* **Mortalidad en los ataques de tiburón por género en la historia**:
 
 ![tabla_actividades](output/5-barras_genero_fatal.png)
 ![tabla_actividades](output/6-tabla_gen_fatal_porcentaje.png)
