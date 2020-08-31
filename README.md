@@ -48,7 +48,7 @@ Además, existen columnas con datos que no aportan información para validar las
 
 El resultado es un dataFrame de 15 columnas del siguiente tipo:
 
-![df_clean15](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/15_columnas_limpias.png)
+![df_clean15](Images_readme/15_columas_limpias.png)
 
 Aun con todo, siguen quedando columnas con una media de 19.000 valores vacíos (NaN) entre sus datos.
 
@@ -76,12 +76,12 @@ Por último, para validar esta hipótesis en su segunda teoría, antes es necesa
 
 Mediante el método groupby() de pandas, y con los intervalos temporales que nos ha interesado, hemos podido cruzar los datos necesarios para la comprobación de la hipótesis, de la siguiente manera:
 
-![tabla_actividades](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/1-tabla_gen_fatal_años.png)
-![tabla_actividades](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/2-barras_genero_años.png)
-![tabla_actividades](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/3-tabla_porcentaje_años.png)
-![tabla_actividades](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/4-porcentaje_fatal_años.png)
-![tabla_actividades](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/5-barras_genero_fatal.png)
-![tabla_actividades](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/6-tabla_gen_fatal_porcentaje.png)
+![tabla_actividades](output/1-tabla_gen_fatal_años.png)
+![tabla_actividades](output/2-barras_genero_años.png)
+![tabla_actividades](output/3-tabla_porcentaje_años.png)
+![tabla_actividades](output/4-porcentaje_fatal_años.png)
+![tabla_actividades](output/5-barras_genero_fatal.png)
+![tabla_actividades](output/6-tabla_gen_fatal_porcentaje.png)
 
 
 Por lo que **la hipótesis 1 es errónea en sus dos teorías**
@@ -92,6 +92,7 @@ En este caso, los problemas que nos encontramos en esta columna son de errores d
 
 Ordenando de mayor  a menos el total de casos para las 5 actividades principales, se obtiene lo siguiente:
 
-![tabla_actividades](https://github.com/silviaherf/data-cleaning-pandas/blob/master/Images_readme/7-tabla_actividades.png)
+![tabla_actividades](output/7-tabla_actividades.png)
+
 
 Por lo que **la hipótesis 2 es errónea**
